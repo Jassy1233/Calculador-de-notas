@@ -1,0 +1,32 @@
+body{
+    background-color: lightslategray;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+a{
+    border: 1px solid;
+    box-shadow: 0px 1px 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-color: #1d1d1d;
+    border-radius: 4px;
+    transition: all 0.4s ease;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
